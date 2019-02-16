@@ -1,0 +1,14 @@
+/* pages/anli/index.wxss */
+.paiban{
+  width: 100%;
+  display: flex;
+  justify-content :space-between;
+  align-content:space-between;
+  flex-wrap:wrap;
+}
+.paiban image {
+  margin-top: 7rpx;
+  margin-bottom: 7rpx;
+  width: 33%;
+  height: 240rpx;
+}

@@ -1,13 +1,20 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<image class="shoutu"src="https://wx4.sinaimg.cn/mw690/005KyzbTly1g077fod4lnj30jw0awqam.jpg"></image>
+<view class="caidan">
+  <view >宝宝宴</view>
+  <view bindtap="anli">婚礼案例</view>
+  <view >摄影团队</view>
+  <view >新人讲堂</view>
+  <view >同学会</view>
+  <view >户外场景</view>
+  <view bindtap="hunlidianying">婚礼电影</view>
+  <view >管家团队</view>
 </view>
+<view class="caidan2">
+  <view  bindtap="zhuchiren">主持人推荐</view>
+  <view  bindtap="hunshalifu">婚纱礼服推荐</view>
+</view>
+<swiper  class="lunbo" indicator-dots='true' autoplay='true' interval='2000'>
+  <swiper-item bindtap="previewImg2" wx:for="{{image_lunbo}}" ><image src="{{item}}" data-index="{{index}}"></image></swiper-item>
+</swiper>
+<image mode="widthFix" style="width:100%" bindtap="previewImage"  src="https://wx4.sinaimg.cn/mw690/005KyzbTly1g077fr34zpj30ty6wku0x.jpg"></image>

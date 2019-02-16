@@ -1,0 +1,10 @@
+<!--pages/zhuchiren/index.wxml-->
+<swiper class="lunbo" indicator-dots='true' autoplay='true' interval='2000'>
+<swiper-item><image src="https://wx3.sinaimg.cn/mw690/005KyzbTly1g077fopo35j30q40hfhcv.jpg"></image></swiper-item>
+<swiper-item><image src="https://wx2.sinaimg.cn/mw690/005KyzbTly1g077fp42wpj30t10hce81.jpg"></image></swiper-item>
+<swiper-item><image src="https://wx3.sinaimg.cn/mw690/005KyzbTly1g077fq18ezj30op0dvkal.jpg"></image></swiper-item>
+<swiper-item><image src="https://wx2.sinaimg.cn/mw690/005KyzbTly1g077fqit46j30sb0itnp1.jpg"></image></swiper-item>
+<swiper-item><image src="https://wx1.sinaimg.cn/mw690/005KyzbTly1g077fq99igj30sd0hr1kx.jpg"></image></swiper-item>
+<swiper-item><image src="https://wx2.sinaimg.cn/mw690/005KyzbTly1g077fpt2hdj30nf0cmqsm.jpg"></image></swiper-item>
+<swiper-item><image src="https://wx3.sinaimg.cn/mw690/005KyzbTly1g077gh1cs9j30qi0gx4qp.jpg"></image></swiper-item>
+</swiper>

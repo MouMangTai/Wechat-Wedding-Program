@@ -1,0 +1,23 @@
+<!--pages/anli/index.wxml-->
+<swiper  class="lunbo" indicator-dots='true' autoplay='true' interval='2000'>
+  <swiper-item bindtap="previewImg2" wx:for="{{image_lunbo}}" ><image src="{{item}}" data-index="{{index}}"></image></swiper-item>
+</swiper>
+  <view class="caidan">
+  <view bindtap="nuan">暖色系</view>
+  <view bindtap="leng">冷色系</view>
+  <view >红</view>
+  <view >黄</view>
+  <view >蓝</view>
+  <view >绿</view>
+  <view >青</view>
+  <view >蓝</view>
+</view>
+  <view wx:if="{{type==1}}"class="paiban" >
+    <image bindtap="previewImg" data-index="{{index}}" wx:for="{{image_nuan}}" src="{{item}}"></image>
+  </view>
+  <view wx:elif="{{type==2}}"class="paiban" >
+    <image bindtap="previewImg" data-index="{{index}}" wx:for="{{image_leng}}" src="{{item}}"></image>
+  </view>
+
+  
+

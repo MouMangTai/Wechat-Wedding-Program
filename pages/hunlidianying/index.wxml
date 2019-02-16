@@ -1,0 +1,24 @@
+<!--pages/tuanduizhanshi/index.wxml-->
+<view class="caidan" style="font-size:30rpx;padding:20rpx 5rpx 5rpx 5rpx;">
+    <view bindtap="tuanduizhanshi" bindtap='tuanduizhanshi'>团队展示</view>
+    <view bindtap='zuopingzhanshi'>作品展示</view>
+    <view>作品展示</view>
+</view>
+<view wx:if="{{type==1}}">
+<image style="width:100%;height:550rpx;"src="https://wx3.sinaimg.cn/mw690/005KyzbTly1g07eex0zqnj30x20q0jv6.jpg"> </image>
+<image style="width:100%"src="https://wx3.sinaimg.cn/mw690/005KyzbTly1g07eex0sj0j31900u00y3.jpg"> </image>
+<image style="width:100%;height:1200rpx;"src="https://wx3.sinaimg.cn/mw690/005KyzbTly1g07eexski3j30u016gb29.jpg"> </image>
+</view>
+<view wx:if="{{type==2}}">
+<view style="padding:20rpx;">
+星空系列
+<video style="width:100%;"src="http://1258617433.vod2.myqcloud.com/2252208avodcq1258617433/a9172ef05285890785602234377/TYwbxIl0n6AA.mp4"  ></video>
+温馨系列
+<video style="width:100%"src="http://1258617433.vod2.myqcloud.com/2252208avodcq1258617433/a91743b15285890785602234837/lt8Q2R9SBh4A.mp4"  ></video>
+浪漫系列
+<video style="width:100%"src="http://1258617433.vod2.myqcloud.com/2252208avodcq1258617433/a8f4274e5285890785602216744/9xOBoDK2v6UA.mp4" ></video>
+中式系列
+<video style="width:100%"src="http://1258617433.vod2.myqcloud.com/2252208avodcq1258617433/a917bf2d5285890785602235445/olV2AjABbVAA.mp4" ></video>
+</view>
+</view>
+

@@ -1,8 +1,0 @@
-<!--pages/wxml/index.wxml-->
-<text>pages/wxml/index.wxml</text>
-
-<view >
-<text >hello world</text>
-</view>
-<text >{{time}}</text>
-<text data-test="{{text}}">hello world</text>
